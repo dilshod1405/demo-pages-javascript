@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+aside{
+    background-color: white;
+    width: 320px;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    flex-shrink: 0;
+    height: 100vh;
+}
+
+
+.menu li{
+    margin-bottom: 6px;
+}
+
+.menu li a:hover{
+    background-color: #2d1967;
+    color: white;
+}
+
+.menu li .active{
+    background-color: #2d1967;
+    color: white;
+}
+
+.menu li a{
+    background-color: #f8f9fa;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 14px;
+    display: block;
+    transition: 0.2s;
+    padding: 10px 20px;
+}
+
+#rightside{
+    flex: 1;
+}
